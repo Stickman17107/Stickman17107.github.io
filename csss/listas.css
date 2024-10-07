@@ -1,0 +1,9 @@
+
+background:url(..img/fondo.jpg)
+background-repeat:repeat-x;
+
+body{
+	background-repeat:repeat-x;
+	background-attachment: fixed;
+	background-position:50%;
+}

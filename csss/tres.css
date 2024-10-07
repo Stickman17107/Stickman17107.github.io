@@ -1,0 +1,24 @@
+.boton.tres {
+    position: relative;
+    overflow: hidden; 
+}
+
+.boton.tres::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #18a362;
+    position: absolute;
+    z-index: 0; 
+    top: 100%; 
+    left: 0;
+    transition: top .4s ease-in-out; 
+}
+
+.boton.tres:hover::after {
+    top: 0; 
+}
+
+.boton.tres:hover {
+    z-index: 1;
+}

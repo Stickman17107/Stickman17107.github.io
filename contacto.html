@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="csss/estilo3.css">
+    <link rel="icon" href="img/icon.png">
     
     <style>
         body {
@@ -52,7 +54,7 @@
             <a href="contacto.html">Contacto</a>
             <a href="ubicacion.html">Ubicación</a>
         </nav>
-        <h1>Contactanos:</h1>
+        
     </header>
 
    
@@ -61,16 +63,26 @@
         
 
 <body>
+        
+    <form>
+    <h2> Contacto <h2>
 
-    <form class="form">
-        <div class="form-container">
-            <h2 class="form-title"> </h2>
-            <input type="text" class="form-input" placeholder="Nombre:">
-            <input type="email" class="form-input" placeholder="Email:">
-            <textarea class="form-input form-input--message" placeholder="Mensaje:">
-        </textarea>
+        <div class="form-txt">
+            <p>Diamonds & Dancefloors<p>
+        </div>
 
-        <input type="submit" value="Enviar" class="form-cta">
+        <div class="input-group">
+            <input type="text" name="name" placeholder="Nombre:">
+
+            <input type="email" name="email" placeholder="Email:">
+
+            <textarea name="message" cols="30" rows="5" placeholder="Mensaje:"></textarea>
+
+
+            <input class="btn" type="submit" value="Enviar:">
+
+        </div>
+    </form>
 
         <script>
     function toggleDarkMode() {
@@ -85,5 +97,7 @@
 
 </script>
 
-        
+        <footer>
+    
+</footer>
 </html>
