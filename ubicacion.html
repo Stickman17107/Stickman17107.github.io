@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación</title>
+    <style>
+        body {
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        .toggle-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-button" onclick="toggleDarkMode()">Modo Oscuro</button>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galería</a>
+            <a href="historia.html">Historia</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="ubicacion.html">Ubicación</a>
+        </nav>
+        <h1>Nuestra Ubicación</h1>
+    </header>
+
+    <section>
+        <div>
+            <h2>Visítanos</h2>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4460373951742!2d-90.56193108171635!3d14.630603885800404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1b4404a4777%3A0x408fee8ef0803f73!2sColegio%20Mixto%20Monte%20Carmelo!5e0!3m2!1ses-419!2sgt!4v1727736082985!5m2!1ses-419!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <script>
+        
+        
+    </script>
+
+    <footer>
+        <p>© Diamonds & Dancefloors</p>
+    </footer>
+</body>
+</html>

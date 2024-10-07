@@ -1,0 +1,33 @@
+.slider-frame {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-frame ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider-frame li {
+    min-width: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.slider-frame img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-frame li:not(.active) {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.slider-frame li.active {
+    opacity: 1;
+    pointer-events: auto;
+}
